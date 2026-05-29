@@ -187,6 +187,7 @@ namespace LuaConfig{
                     uint32_t mt = mtIt->second;
                     auto& slot = g_purchaseTime[DepotId];
                     if (mt > slot) slot = mt;
+                }
             }
         }
 
